@@ -4,9 +4,8 @@ public class NewTest {
 
     @Test
     void newTest() {
+        int i = 3;      
         System.out.println("This is best test");
-        Assertions.asserTrue(3>2);
+        Assertions.asserTrue(i > 2);
     }
-
-
 }
